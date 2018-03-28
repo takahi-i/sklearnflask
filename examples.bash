@@ -1,7 +1,7 @@
 #!/bin/bash
 #
 # Starting API
-python2 main.py 9999 &
+python main.py 9999 &
 sleep 2
 #
 # POST method predict

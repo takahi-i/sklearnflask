@@ -39,8 +39,7 @@ def predict():
 
             return jsonify({'prediction': prediction})
 
-        except Exception, e:
-
+        except Exception:
             return jsonify({'error': str(e), 'trace': traceback.format_exc()})
     else:
         print 'train first'
